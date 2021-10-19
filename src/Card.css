@@ -11,9 +11,9 @@
 }
 .card > img{
     object-fit: fill;
-    min-width: 300px;
-    min-height: 200px;
-    width: 100%;
+    height: 300px;
+    width: 430px;
+    
 }
 .card__info{
     margin-top: -9px;

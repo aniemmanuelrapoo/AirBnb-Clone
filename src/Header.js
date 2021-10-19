@@ -5,6 +5,7 @@ import LanguageIcon from "@material-ui/icons/Language";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { Avatar } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import logo from './assets/Airbnb-logo.jpg'
 
 function Header() {
     return (
@@ -12,7 +13,7 @@ function Header() {
             <Link to="/">
                 <img 
                 className="header__icon" 
-                src="https://1000logos.net/wp-content/uploads/2017/08/Airbnb-logo.jpg"  
+                src={logo}  
                 alt=""/>
             </Link>
             
